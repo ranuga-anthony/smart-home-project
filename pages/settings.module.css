@@ -1,0 +1,110 @@
+.reset{
+    margin-top: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid #000;
+    border-radius: 18px;
+    width: 200px;
+    height: 170px;
+    padding-left: 12px;
+    padding-top: 12px;
+    margin-left: 10px;
+    font-size: 28px;
+    font-weight: 800;
+    
+}
+.reset:hover{
+    box-shadow: 0 0 10px #000;
+}
+
+.reset_button{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 42px;
+    margin-left: 112px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.reset_button:hover{
+    background-color: yellow;
+    color: #1a3444;
+
+}
+
+.account_details{
+    margin-top: 32px;
+    background-color: #3d1a44;
+    color: #ff5757;
+    border: 2px solid #000;
+    border-radius: 18px;
+    width: 200px;
+    height: 170px;
+    padding-left: 12px;
+    padding-top: 12px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.details_button{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 48px;
+    margin-left: 48px;
+    /*margin-bottom: -100px;*/
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.account_details:hover{
+    box-shadow: 0 0 10px #3d1a44;
+
+}
+
+.configure{
+    margin-top: 32px;
+    margin-left: 10px;
+    background-color: #343434;
+    color: #f34d35;
+    border: 2px solid #000;
+    border-radius: 18px;
+    width: 200px;
+    height: 170px;
+    padding-left: 12px;
+    padding-top: 12px;
+    
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.configure:hover{
+    box-shadow: 0 0 10px #343434;
+}
+
+.configure_button{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 48px;
+    margin-left: 48px;
+    /*margin-bottom: -100px;*/
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+
+
+.reset,.configure,.account_details{
+    display: inline-block;
+}
+
+.footer{
+   font-size: 12px;
+   font-weight: 700;
+   margin-top: 240px;
+   text-align: center;
+   color: #000; 
+}
