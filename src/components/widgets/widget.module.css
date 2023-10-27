@@ -1,0 +1,82 @@
+.widget_time{
+    color: white;
+    /*font-weight: 300;*/
+    font-size: 60px;
+    text-align: center;
+}
+
+.widget_date{
+    color: white;
+    font-size: 16px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.widget_weather {
+    margin-top: 25px;
+}
+
+.temperature{
+    display: inline-flex;
+}
+.widget_weather_temp_title {
+    color: white;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 30px;
+    
+}
+
+.widget_weather_temp {
+    color: white;
+}
+
+.humidity{
+    display: inline-flex;
+    margin-top: 16px ;
+}
+
+.widget_weather_humidity_title{
+    color: white;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 70px;
+}
+  
+.widget_weather_humidity {
+    color: white;
+}
+  
+.condition{
+    display: inline-flex;
+    margin-top: 16px ;
+}
+
+.widget_weather_condition_title{
+    color: white;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+.widget_weather_condition{
+    color: white;
+    
+}
+
+.rain{
+    display: inline-flex;
+    margin-top: 16px ;
+}
+
+.widget_weather_rain_chance_title{
+    color: white;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 60px;
+
+}
+
+.widget_weather_rain_chance{
+    color: white;
+}

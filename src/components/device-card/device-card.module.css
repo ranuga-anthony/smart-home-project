@@ -1,0 +1,73 @@
+.device_card{
+    position: relative;
+    overflow: hidden;
+    height: 288px;
+    width : 224px;
+    border-radius: 24px;
+    
+  }
+  
+  .device_card_img{
+    display: block;
+    max-width: 100%;
+    border: radius 24px; ;
+    object-fit: cover;
+  }
+  
+  .device_card_info{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 16px;
+  }
+
+  .device_card_info_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .device_card_text{
+    color: #000000;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  .device_card_icon_off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    border-width: 2px solid #717374;
+    cursor: pointer;
+    color: #404243;
+  }
+  
+  .device_card_icon_on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    border-width: 2px solid #FFD700;
+    cursor: pointer;
+    color: #000;
+    background: #FFD700;
+    box-shadow: 0 0 10px #FFD700;
+  
+  }
+  
+.device_card:hover{
+  box-shadow: 0 0 10px grey;
+}
+
+.device_card_icon_off:hover{
+  border-width: 2px solid #FFD700;
+  background: #FFD700;
+  box-shadow: 0 0 10px #FFD700;
+}

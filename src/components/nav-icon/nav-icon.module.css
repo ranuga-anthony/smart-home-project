@@ -1,0 +1,40 @@
+.container {
+  margin-left: 12px;
+  display: flex;
+  height: 64px;
+  width: 64px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 30px;
+    
+}
+  
+.container:hover {
+  /*background: #404243;*/
+  background: white;
+  color: #000;
+  
+    
+}
+  
+.container_active {
+  margin-left: 12px;
+  margin-bottom: 30px;
+  display: flex;
+  height: 64px;
+  width: 64px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: #25ffff;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 0 10px #25ffff;
+}
+  
+  .container_active:hover {
+    background: #25ffff;
+  }
